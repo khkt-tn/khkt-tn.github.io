@@ -9,7 +9,12 @@ hide:
 <section class="research-hero">
   <div class="research-hero__content">
     <p class="eyebrow">FISH AI RESEARCH · NHẬT KÝ KHOA HỌC</p>
-    <h1>PHÂN TÍCH HÀNH VI CÁ CẢNH<br>SỬ DỤNG TRÍ TUỆ NHÂN TẠO<br>TỪ DỮ LIỆU HÌNH ẢNH VÀ MÔI TRƯỜNG</h1>
+<h1>
+  <span>PHÂN TÍCH HÀNH VI CÁ CẢNH</span>
+  <span>SỬ DỤNG TRÍ TUỆ NHÂN TẠO</span>
+  <span>TỪ DỮ LIỆU HÌNH ẢNH VÀ MÔI TRƯỜNG</span>
+</h1>
+
     <p class="research-hero__lead">Hệ thống kết hợp thị giác máy tính, theo dõi đa cá thể, dữ liệu cảm biến môi trường và hệ thống nhúng nhằm định lượng và phân tích hành vi cá cảnh.</p>
     <div class="hero-actions">
       <a class="button button--primary" href="journal/">Xem nhật ký nghiên cứu</a>
