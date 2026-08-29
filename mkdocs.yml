@@ -1,0 +1,110 @@
+site_name: Fish AI Research
+site_description: Nhật ký nghiên cứu khoa học về phân tích hành vi cá cảnh bằng AI
+site_author: Phạm Duy Quang Anh và Nguyễn Quốc Minh
+site_url: https://khkt-tn.github.io/
+repo_url: https://github.com/khkt-tn/khkt-tn.github.io
+repo_name: khkt-tn/khkt-tn.github.io
+edit_uri: ""
+copyright: >-
+  Fish AI Research · THPT Chuyên Thái Nguyên<br>
+  Nhật ký được xây dựng từ bằng chứng thực nghiệm và lịch sử phiên bản.
+
+theme:
+  name: material
+  language: vi
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Chuyển sang nền tối
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Chuyển sang nền sáng
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+nav:
+  - Trang chủ: index.md
+  - Nhật ký:
+      - Tổng quan: journal/index.md
+      - J01 · Thu nhận dữ liệu: journal/J01_data_acquisition.md
+      - J02 · Dữ liệu TOP và FRONT: journal/J02_top_front_data_collection.md
+      - J03 · Dataset Roboflow: journal/J03_roboflow_dataset.md
+      - J04 · YOLO detection: journal/J04_yolo_detection.md
+      - J05 · Fish tracking: journal/J05_fish_tracking.md
+      - J06 · Behavior features: journal/J06_behavior_features.md
+      - J07 · Raspberry Pi và Coral: journal/J07_raspberry_pi_coral.md
+      - J08 · Tối ưu thời gian thực: journal/J08_realtime_optimization.md
+      - J09 · Đồng bộ môi trường: journal/J09_sensor_behavior_sync.md
+      - J10 · Phân tích môi trường: journal/J10_environment_behavior_analysis.md
+      - J11 · Audit tái lập: journal/J11_reproducibility_audit.md
+      - J12 · Kiểm chứng thống kê: journal/J12_statistical_validation.md
+      - J13 · Báo cáo khoa học: journal/J13_scientific_report.md
+      - J14 · Poster và demo: journal/J14_poster_and_demo.md
+      - J15 · Chuẩn bị phản biện: journal/J15_defense_preparation.md
+      - J16 · Lưu trữ dự án: journal/J16_final_project_archive.md
+  - Thí nghiệm: experiments.md
+  - Timeline: timeline.md
+  - Kết quả: results.md
+  - Media: media.md
+  - Minh chứng:
+      - Tổng quan: evidence.md
+      - Dự án: project.md
+      - Đóng góp: contributions.md
+
+plugins:
+  - search:
+      lang:
+        - vi
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/extra.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/khkt-tn/fish
+      name: Repository khoa học Fish AI
+
+strict: true

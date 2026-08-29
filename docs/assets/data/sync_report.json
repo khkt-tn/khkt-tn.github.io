@@ -1,0 +1,186 @@
+{
+  "source_root": "research_diary",
+  "source_check_path": "../fish",
+  "source_repository": "https://github.com/khkt-tn/fish",
+  "source_branch": "main",
+  "source_git_commit": "36e24ed6a245086bc40bf502f29f298514521407",
+  "source_files": [
+    {
+      "source": "research_diary/ABOUT_PROJECT.md",
+      "destination": "docs/project.md",
+      "source_sha256": "9fee1bee8780defa89cf31aeadeae3f4fc5b7e51e01f18956c2db58610fcbc8c",
+      "destination_sha256": "da2177285998abf8fa2cf7d213f6a5de51f9377fe9f09b3a8778883164f62632"
+    },
+    {
+      "source": "research_diary/RESEARCH_TIMELINE.md",
+      "destination": "docs/timeline.md",
+      "source_sha256": "d187c99d9da5ad20f862bcf49369e6113166544e29bfa81d5304bf1bd6395096",
+      "destination_sha256": "70e46594eba4d8682ef097fd372a8cfa8705d15402d1c298b8684e2dc3d6521f"
+    },
+    {
+      "source": "research_diary/MEDIA_INDEX.md",
+      "destination": "docs/media.md",
+      "source_sha256": "00be0a33a37fa724e0c44cec71a7fac84ce1fc5ccd349b49d53d8843b628a013",
+      "destination_sha256": "5bafc2d17f37f6a8c98eb2ce2d98b1a3c481d375abe4e450e22d9f0eba604c19"
+    },
+    {
+      "source": "research_diary/EVIDENCE_INDEX.md",
+      "destination": "docs/evidence.md",
+      "source_sha256": "753fdaa5ff9c0b2901ad85aea663512c4859890e2cc56e8b4320235cc363a7cd",
+      "destination_sha256": "6a81775ee362210ffdbcda1cf2a210d3aae8cf919aad0cc4c663fba02635054e"
+    },
+    {
+      "source": "research_diary/CONTRIBUTION_LOG.md",
+      "destination": "docs/contributions.md",
+      "source_sha256": "d79994269a4d984e676d2d475e8a9fdde8a37df5de109d18e97e7152dafcf9f4",
+      "destination_sha256": "6d0fb5ef39f092f41eebfcf0bb362d16446cbf727d1870a06ca70ce10578170a"
+    },
+    {
+      "source": "research_diary/entries/J01_data_acquisition.md",
+      "destination": "docs/journal/J01_data_acquisition.md",
+      "source_sha256": "b5d0a4c4f60b448ef7af0710e6518f4e08de5b22ea06309cbe170dbab4b509c5",
+      "destination_sha256": "d5a619303e910ba2608ebfd59edde723e05ef932f970179e8a645a8ee2375569"
+    },
+    {
+      "source": "research_diary/entries/J02_top_front_data_collection.md",
+      "destination": "docs/journal/J02_top_front_data_collection.md",
+      "source_sha256": "47090fdb391da02433119f6bfc88073b0239bca6eb6a3755a28b2a9921cae4a0",
+      "destination_sha256": "d3a7b3d5ad9f02af403160bd8441eee57baac8a8493e48207987dacd60dc3e8d"
+    },
+    {
+      "source": "research_diary/entries/J03_roboflow_dataset.md",
+      "destination": "docs/journal/J03_roboflow_dataset.md",
+      "source_sha256": "f6e722a9b51c9a1f0ba146f8546c8b55b367ef3867b8c153d85453abb6c080af",
+      "destination_sha256": "8569d9129403741aa159a7da6b30449900beccb02184b0cbbdb45f277d5cb7c0"
+    },
+    {
+      "source": "research_diary/entries/J04_yolo_detection.md",
+      "destination": "docs/journal/J04_yolo_detection.md",
+      "source_sha256": "7ab04868124f4b9ed552971ec2b69b0e070e8004810f05d45561c66c5fae86a5",
+      "destination_sha256": "cdbeb60a69f40eb6b3bedc9f216152236b3c4de70157c53efa53af4f3b3b20c7"
+    },
+    {
+      "source": "research_diary/entries/J05_fish_tracking.md",
+      "destination": "docs/journal/J05_fish_tracking.md",
+      "source_sha256": "865e135717c7e421c8a8b5ce39f690ffb0a3ac1dd751d259a93ae73157ec9995",
+      "destination_sha256": "cf832d588a28a5715e22044422fbe49eadb9308b4c47f71f281162fa3fc44a25"
+    },
+    {
+      "source": "research_diary/entries/J06_behavior_features.md",
+      "destination": "docs/journal/J06_behavior_features.md",
+      "source_sha256": "5d41730fa34d738741f80f54347d26a466b1648a781cce3258a6243eb613f8b3",
+      "destination_sha256": "fc870ecf6abbd339020d366f4dc38f4d1672b1757aa22882f10e20df9fe5f59c"
+    },
+    {
+      "source": "research_diary/entries/J07_raspberry_pi_coral.md",
+      "destination": "docs/journal/J07_raspberry_pi_coral.md",
+      "source_sha256": "0e9b2cb797d57724951cd9450b1af49f531aab1dfe19861f868e85dcd93e98c2",
+      "destination_sha256": "f577d43acb5421973a2f2d18b1b05a464838b7335d2d4f9e8585fb7a38f7a74e"
+    },
+    {
+      "source": "research_diary/entries/J08_realtime_optimization.md",
+      "destination": "docs/journal/J08_realtime_optimization.md",
+      "source_sha256": "12252269d27ac365605e9e2a8090b61b19ebe73ec81d83cca2aa3d0eeed03d36",
+      "destination_sha256": "b00db61e3db51bdf54ad7675a409e023e652ae18994cfbf789d1210ae08b77a3"
+    },
+    {
+      "source": "research_diary/entries/J09_sensor_behavior_sync.md",
+      "destination": "docs/journal/J09_sensor_behavior_sync.md",
+      "source_sha256": "19e968f21d5ab74904c3c2faff85758578d04c25bf7777db50baeed7d4f514b4",
+      "destination_sha256": "ccd8e2ff1562884aa3a692deaf45346575e618cd70bf1da5c1700794fb859dc6"
+    },
+    {
+      "source": "research_diary/entries/J10_environment_behavior_analysis.md",
+      "destination": "docs/journal/J10_environment_behavior_analysis.md",
+      "source_sha256": "12b2959e9494004821f4fbd27101487326714a5b5490be969af49b30fa17fca6",
+      "destination_sha256": "00f1a88f0d6b5e3ee0226ef50145f378d1871ce6de89c8dcd45a94c88318e676"
+    },
+    {
+      "source": "research_diary/entries/J11_reproducibility_audit.md",
+      "destination": "docs/journal/J11_reproducibility_audit.md",
+      "source_sha256": "7ae45c05a208b412b7219532992fba8aa74154b9fc0470a085e8a1b723c04e6d",
+      "destination_sha256": "3dc91b722bdf9b501441c3f1891ab11e500f52cf3bb051f2d67fe2bf270d47d0"
+    },
+    {
+      "source": "research_diary/entries/J12_statistical_validation.md",
+      "destination": "docs/journal/J12_statistical_validation.md",
+      "source_sha256": "399eddbab019e0db62faeed5c90ae8eb4e633fed647e2c2860324e62689d31b3",
+      "destination_sha256": "318ba343a548264fcc0b192ed7d1ddb990169354912755a734ca60ab882a0b96"
+    },
+    {
+      "source": "research_diary/entries/J13_scientific_report.md",
+      "destination": "docs/journal/J13_scientific_report.md",
+      "source_sha256": "c0cf1cc77a1965ef90de8e4633310dea45b28c07a9194664ea154f9593ea580f",
+      "destination_sha256": "0cd42a7059b8bdf10f0f8c64137441bca96093da691a63bddb9f73a663a9cd09"
+    },
+    {
+      "source": "research_diary/entries/J14_poster_and_demo.md",
+      "destination": "docs/journal/J14_poster_and_demo.md",
+      "source_sha256": "2efe70608685132c60978dc2f2a7a196639768754bb8a29b7f98c6fb7bdcd0af",
+      "destination_sha256": "a0b33a254b7e0ed024b97d89c58e3c65dabc93d34e183caa9f582c8df32fbb5f"
+    },
+    {
+      "source": "research_diary/entries/J15_defense_preparation.md",
+      "destination": "docs/journal/J15_defense_preparation.md",
+      "source_sha256": "c69fefc45ed3a89981a8de54c120a573c6a20a3541e511cb44c5d3d20e6cee58",
+      "destination_sha256": "e847babeffb8ea05249ffe6eb3e827e06f44f34d787dd34fe07439a5adecd945"
+    },
+    {
+      "source": "research_diary/entries/J16_final_project_archive.md",
+      "destination": "docs/journal/J16_final_project_archive.md",
+      "source_sha256": "24aa278c958a35cf03104b5a81bd246e75d0f3690fc0a0efc016d31423958941",
+      "destination_sha256": "3cccb7e7de4dcd65ed46229274b87b89d1e5fe70cc2d22e983eb58575ff9c29c"
+    }
+  ],
+  "copied_images": [
+    {
+      "source": "results/behavior/plots/top_representative_cleaned_trajectories.png",
+      "destination": "docs/assets/images/research/results/behavior/plots/top_representative_cleaned_trajectories.png",
+      "bytes": 147494,
+      "sha256": "5798c83b553316ddcfe640ea88b126c12f93ba7536f742bbca090307567fd0f9"
+    },
+    {
+      "source": "results/behavior/plots/top_group_feature_qc.png",
+      "destination": "docs/assets/images/research/results/behavior/plots/top_group_feature_qc.png",
+      "bytes": 43817,
+      "sha256": "e0dbc22a54e1e200700c3407338ba4edb4c64b59576c0a712fc5f7d1c5861804"
+    },
+    {
+      "source": "results/environment/plots/top_environment_session_conditions.png",
+      "destination": "docs/assets/images/research/results/environment/plots/top_environment_session_conditions.png",
+      "bytes": 44836,
+      "sha256": "da393ebc95662796cddc925891a690383d9ff2db00e33dc83eaeb9b3506015cc"
+    },
+    {
+      "source": "results/environment/plots/top_individual_speed_comparison.png",
+      "destination": "docs/assets/images/research/results/environment/plots/top_individual_speed_comparison.png",
+      "bytes": 37715,
+      "sha256": "6a8dcf5ad939fcf69643caeece9bc5c351a974b41768afdf89c74f5ad5cb9e12"
+    },
+    {
+      "source": "results/environment/plots/top_individual_turning_path_efficiency.png",
+      "destination": "docs/assets/images/research/results/environment/plots/top_individual_turning_path_efficiency.png",
+      "bytes": 54131,
+      "sha256": "004d14e9e8ff2b69aad59152709fcf3c03af10898aa62752cd0b80c75e02a1e6"
+    },
+    {
+      "source": "results/environment/plots/top_group_nearest_neighbor_comparison.png",
+      "destination": "docs/assets/images/research/results/environment/plots/top_group_nearest_neighbor_comparison.png",
+      "bytes": 36893,
+      "sha256": "942e71d87d8c61e8007852b1bda779bddc2ce59b2856d24533ba2e07639f6a60"
+    },
+    {
+      "source": "results/environment/plots/top_group_dispersion_comparison.png",
+      "destination": "docs/assets/images/research/results/environment/plots/top_group_dispersion_comparison.png",
+      "bytes": 35381,
+      "sha256": "ec9ce86614baaad9e9ecb90a69586405b32e03bd177ea5fa72354508b750206f"
+    },
+    {
+      "source": "results/environment/plots/top_group_polarization_comparison.png",
+      "destination": "docs/assets/images/research/results/environment/plots/top_group_polarization_comparison.png",
+      "bytes": 26367,
+      "sha256": "4520b96fb58c3d3654b4bde0ef5cf96922897ea82bdf728d589bf43bfd29980a"
+    }
+  ],
+  "warnings": []
+}
