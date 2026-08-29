@@ -2,7 +2,7 @@
 journal_id: J01
 experiment_id: EXP-01
 title: "Xây dựng hệ thống thu nhận và lưu trữ dữ liệu"
-date: "30/07/2026"
+date: "2026-07-30"
 status: Verified
 authors:
   - "Phạm Duy Quang Anh"
@@ -18,7 +18,7 @@ last_updated: "2026-08-29"
 
 # Xây dựng hệ thống thu nhận và lưu trữ dữ liệu
 
-<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J01</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-01</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">01/08/2026</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-partial">Một phần · PARTIAL</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">low</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
+<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J01</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-01</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">01/08/2026</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-partial">Đã xác minh · VERIFIED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">low</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
 
 
 ## 1. Mục tiêu
