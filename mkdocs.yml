@@ -91,7 +91,7 @@ markdown_extensions:
   - tables
 
   - toc:
-      permalink: true
+      permalink: false
       toc_depth: 3
 
   - pymdownx.details
