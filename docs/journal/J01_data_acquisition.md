@@ -2,8 +2,8 @@
 journal_id: J01
 experiment_id: EXP-01
 title: "Xây dựng hệ thống thu nhận và lưu trữ dữ liệu"
-date: "TO_VERIFY"
-status: PARTIAL
+date: "30/07/2026"
+status: Verified
 authors:
   - "Phạm Duy Quang Anh"
   - "Nguyễn Quốc Minh"
@@ -63,36 +63,16 @@ Nền tảng thu dữ liệu có bằng chứng gián tiếp qua dữ liệu đ�
 - [`data source inventory log`](https://github.com/khkt-tn/fish/blob/main/logs/data/notebook01_summary.txt)
 - [Danh sách unresolved](https://github.com/khkt-tn/fish/blob/main/research_diary/evidence/unresolved.md)
 
-## 11. Hình ảnh đề xuất
 
-<!-- TODO_MEDIA:
-source: user-provided setup photo
-timestamp: N/A
-description: IMG-J01-01 Raspberry Pi và camera thực tế
--->
+## 11. Hình ảnh minh chứng
 
-<!-- TODO_MEDIA:
-source: original acquisition machine
-timestamp: N/A
-description: IMG-J01-02 cấu trúc thư mục dataset
--->
+### IMG-J01-01 ·Hệ thống nuôi cá và chụp ảnh
 
-<!-- TODO_MEDIA:
-source: original terminal capture
-timestamp: N/A
-description: IMG-J01-03 terminal hiển thị collector/rclone
--->
+![Raspberry Pi và camera sử dụng trong hệ thống thu nhận dữ liệu](../assets/images/J01/system.jpg)
 
-## 12. Video minh họa
+*Hình 11.1. Raspberry Pi và camera sử dụng trong quá trình thu nhận dữ liệu.*
 
-> 🎥 **V01 — Hệ thống camera và Raspberry Pi đang thu dữ liệu**
->
-> YouTube: <span class="media-waiting">Đang chờ cập nhật</span>
+## 12. Đóng góp của thành viên
 
-## 13. Đóng góp của thành viên
+Quang Anh - Quốc Minh.
 
-`TO_VERIFY_WITH_STUDENTS`: chưa có evidence phân chia việc lắp đặt, lập trình collector hoặc quản lý Drive.
-
-## 14. Công việc tiếp theo
-
-Học sinh bổ sung log/ảnh gốc và xác nhận ngày; không đưa credential rclone hoặc raw video vào Git.
