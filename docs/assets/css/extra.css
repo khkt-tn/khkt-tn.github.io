@@ -164,11 +164,11 @@ body {
 
 .research-hero h1 {
   color: #fff;
-  font-size: clamp(1.0rem, 2.0vw, 1.15rem);
+  font-size: clamp(1.25rem, 2.5vw, 2.15rem);
   font-weight: 820;
   line-height: 1.08;
   margin: 0 0 1.2rem;
-  max-width: 24ch;
+  max-width: 18ch;
 }
 
 .research-hero__lead {
