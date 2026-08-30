@@ -1032,3 +1032,19 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin: 1rem 0 1.5rem;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+.video-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
