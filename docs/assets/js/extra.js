@@ -60,19 +60,19 @@
     return cell ? cell.textContent.trim() : "";
   }
 
-  function youtubeVideoId(link) {
-    if (!link) return null;
+  function getYouTubeId(url) {
+    if (!url) return null;
     try {
-      var url = new URL(link.href);
-      var host = url.hostname.replace(/^www\./, "");
-      var parts = url.pathname.split("/").filter(Boolean);
+      var parsed = new URL(url);
+      var host = parsed.hostname.replace(/^www\./, "");
+      var parts = parsed.pathname.split("/").filter(Boolean);
       var candidate = null;
       if (host === "youtu.be") {
         candidate = parts[0];
       } else if (host === "youtube.com" || host === "m.youtube.com") {
-        if (url.pathname === "/watch") {
-          candidate = url.searchParams.get("v");
-        } else if (["embed", "shorts", "live"].indexOf(parts[0]) >= 0) {
+        if (parsed.pathname === "/watch") {
+          candidate = parsed.searchParams.get("v");
+        } else if (["embed", "shorts"].indexOf(parts[0]) >= 0) {
           candidate = parts[1];
         }
       }
@@ -179,25 +179,33 @@
       card.className = "media-card";
       card.setAttribute("data-media-id", mediaId);
       var link = row.querySelector('a[href*="youtube.com"], a[href*="youtu.be"]');
-      var videoId = youtubeVideoId(link);
+      var videoId = getYouTubeId(link ? link.href : "");
       var video = document.createElement("div");
       video.className = "media-card__video";
       if (videoId) {
         var iframe = document.createElement("iframe");
-        iframe.src = "https://www.youtube.com/embed/" + videoId;
-        iframe.title = mediaId + " — " + title;
+        iframe.src = "https://www.youtube-nocookie.com/embed/" + videoId;
+        iframe.title = title;
         iframe.loading = "lazy";
+        iframe.setAttribute("frameborder", "0");
         iframe.allow =
           "accelerometer; autoplay; clipboard-write; encrypted-media; " +
           "gyroscope; picture-in-picture; web-share";
+        iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
         iframe.allowFullscreen = true;
         video.appendChild(iframe);
       } else {
-        video.classList.add("media-card__video--placeholder");
+        video.classList.add("media-card__video--empty");
+        var playIcon = document.createElement("span");
+        playIcon.className = "media-card__play-icon";
+        playIcon.textContent = "▶";
         var placeholder = document.createElement("span");
         placeholder.textContent = "Chưa có video";
+        video.appendChild(playIcon);
         video.appendChild(placeholder);
       }
+      var body = document.createElement("div");
+      body.className = "media-card__body";
       var idLabel = document.createElement("span");
       idLabel.className = "media-card__id";
       idLabel.textContent = mediaId;
@@ -205,10 +213,20 @@
       heading.textContent = title;
       var journalLabel = document.createElement("p");
       journalLabel.textContent = "Journal: " + journal;
+      body.appendChild(idLabel);
+      body.appendChild(heading);
+      body.appendChild(journalLabel);
+      if (videoId && link) {
+        var youtubeLink = document.createElement("a");
+        youtubeLink.className = "media-card__youtube-link";
+        youtubeLink.href = link.href;
+        youtubeLink.target = "_blank";
+        youtubeLink.rel = "noopener";
+        youtubeLink.textContent = "Mở trên YouTube ↗";
+        body.appendChild(youtubeLink);
+      }
       card.appendChild(video);
-      card.appendChild(idLabel);
-      card.appendChild(heading);
-      card.appendChild(journalLabel);
+      card.appendChild(body);
       grid.appendChild(card);
     });
     if (grid.children.length) {
@@ -223,6 +241,7 @@
         '.md-content a[href*="youtube.com"], .md-content a[href*="youtu.be"]'
       )
       .forEach(function (link) {
+        if (link.classList.contains("media-card__youtube-link")) return;
         link.classList.add("youtube-link");
         link.setAttribute("target", "_blank");
         link.setAttribute("rel", "noopener");
