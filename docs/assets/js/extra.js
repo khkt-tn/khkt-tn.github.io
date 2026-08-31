@@ -60,6 +60,30 @@
     return cell ? cell.textContent.trim() : "";
   }
 
+  function youtubeVideoId(link) {
+    if (!link) return null;
+    try {
+      var url = new URL(link.href);
+      var host = url.hostname.replace(/^www\./, "");
+      var parts = url.pathname.split("/").filter(Boolean);
+      var candidate = null;
+      if (host === "youtu.be") {
+        candidate = parts[0];
+      } else if (host === "youtube.com" || host === "m.youtube.com") {
+        if (url.pathname === "/watch") {
+          candidate = url.searchParams.get("v");
+        } else if (["embed", "shorts", "live"].indexOf(parts[0]) >= 0) {
+          candidate = parts[1];
+        }
+      }
+      return /^[A-Za-z0-9_-]{11}$/.test(candidate || "")
+        ? candidate
+        : null;
+    } catch (_error) {
+      return null;
+    }
+  }
+
   function enhanceTimeline() {
     var page = document.querySelector(".source-research-timeline");
     if (!page) return;
@@ -143,36 +167,48 @@
     var idIndex = column("id");
     var contentIndex = column("nội dung");
     var journalIndex = column("bài sử dụng");
-    var statusIndex = column("trạng thái");
     var grid = document.createElement("div");
     grid.className = "media-card-grid";
     Array.from(table.querySelectorAll("tbody tr")).forEach(function (row) {
       var cells = Array.from(row.children);
       if (!cells.length) return;
+      var mediaId = textOf(cells[idIndex]);
+      var title = textOf(cells[contentIndex]);
+      var journal = textOf(cells[journalIndex]);
       var card = document.createElement("article");
       card.className = "media-card";
+      card.setAttribute("data-media-id", mediaId);
       var link = row.querySelector('a[href*="youtube.com"], a[href*="youtu.be"]');
-      var statusText = cells.map(textOf).join(" ");
-      card.innerHTML =
-        '<span class="media-card__id">' +
-        textOf(cells[idIndex]) +
-        "</span><h3>" +
-        textOf(cells[contentIndex]) +
-        "</h3><p>" +
-        "Journal: " +
-        textOf(cells[journalIndex]) +
-        "</p>" +
-        (link
-          ? '<a class="youtube-link" href="' +
-            link.href +
-            '" target="_blank" rel="noopener">Xem trên YouTube ↗</a>'
-          : '<span class="status-badge status-todo">' +
-            (statusText.indexOf("chờ") >= 0 ||
-            statusText.indexOf("TODO") >= 0 ||
-            statusText.indexOf("Đang") >= 0
-              ? "Chờ video"
-              : textOf(cells[statusIndex])) +
-            "</span>");
+      var videoId = youtubeVideoId(link);
+      var video = document.createElement("div");
+      video.className = "media-card__video";
+      if (videoId) {
+        var iframe = document.createElement("iframe");
+        iframe.src = "https://www.youtube.com/embed/" + videoId;
+        iframe.title = mediaId + " — " + title;
+        iframe.loading = "lazy";
+        iframe.allow =
+          "accelerometer; autoplay; clipboard-write; encrypted-media; " +
+          "gyroscope; picture-in-picture; web-share";
+        iframe.allowFullscreen = true;
+        video.appendChild(iframe);
+      } else {
+        video.classList.add("media-card__video--placeholder");
+        var placeholder = document.createElement("span");
+        placeholder.textContent = "Chưa có video";
+        video.appendChild(placeholder);
+      }
+      var idLabel = document.createElement("span");
+      idLabel.className = "media-card__id";
+      idLabel.textContent = mediaId;
+      var heading = document.createElement("h3");
+      heading.textContent = title;
+      var journalLabel = document.createElement("p");
+      journalLabel.textContent = "Journal: " + journal;
+      card.appendChild(video);
+      card.appendChild(idLabel);
+      card.appendChild(heading);
+      card.appendChild(journalLabel);
       grid.appendChild(card);
     });
     if (grid.children.length) {

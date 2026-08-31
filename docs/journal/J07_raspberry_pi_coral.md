@@ -3,7 +3,7 @@ journal_id: J07
 experiment_id: EXP-06
 title: "Chuẩn bị pipeline trên Raspberry Pi và Coral Edge TPU"
 date: "2026-08-19"
-status: PARTIAL
+status: VERIFIED
 authors:
   - "Phạm Duy Quang Anh"
   - "Nguyễn Quốc Minh"
@@ -18,7 +18,7 @@ last_updated: "2026-08-29"
 
 # Chuẩn bị pipeline trên Raspberry Pi và Coral Edge TPU
 
-<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J07</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-06</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-08-19</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-partial">Một phần · PARTIAL</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">medium</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
+<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J07</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-06</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-08-19</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-verified">Đã xác minh · VERIFIED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">medium</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
 
 
 ## 1. Mục tiêu
@@ -65,24 +65,13 @@ Phần chuẩn bị triển khai được xác minh, nhưng chạy trên Raspber
 - Commit [`622a94b808af2173b584cb6c5148603f93bac19c`](https://github.com/khkt-tn/fish/commit/622a94b808af2173b584cb6c5148603f93bac19c)
 - `pi_front/models/best_full_integer_quant_edgetpu.tflite` (local, ignored, không stage)
 
-## 11. Hình ảnh đề xuất
+## 11. Video minh họa
 
-<!-- TODO_MEDIA:
-source: user-provided Raspberry Pi setup/live screen
-timestamp: N/A
-description: IMG-J07-01 Raspberry Pi + Coral; IMG-J07-02 terminal; IMG-J07-03 giao diện live
--->
+> 🎥 **V01 — Pipeline AI chạy trực tiếp trên Raspberry Pi + Coral**
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/SnY585wfMWQ" title="V02 — Video predicted camera FRONT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-## 12. Video minh họa
+## 12. Đóng góp của thành viên
 
-> 🎥 **V08 — Pipeline AI chạy trực tiếp trên Raspberry Pi + Coral**
->
-> YouTube: <span class="media-waiting">Đang chờ cập nhật</span>
-
-## 13. Đóng góp của thành viên
-
-`TO_VERIFY_WITH_STUDENTS`: chưa xác minh người export model, chuẩn bị phần cứng hoặc thử camera.
-
-## 14. Công việc tiếp theo
-
-Chạy acceptance test trên Pi với video cố định, lưu log nhỏ và benchmark; việc chạy thực nghiệm mới cần user phê duyệt riêng theo workflow.
+Quang Anh - Quốc Minh

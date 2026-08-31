@@ -21,8 +21,6 @@ Không file video nào được đưa vào commit. Đường dẫn local dưới
 | V07 | Video | Behavior overlay | J06 | <span class="status-badge status-todo">Chờ video</span> | <span class="media-waiting">Đang chờ cập nhật</span>; nguồn local cần xác nhận |
 | V08 | Video | Pi + Coral live inference | J07 | <span class="status-badge status-todo">Chờ video</span> | <span class="media-waiting">Đang chờ cập nhật</span>; chưa có evidence runtime trong repository |
 | V10 | Video | Hành vi + môi trường đồng bộ | J08 | <span class="status-badge status-todo">Chờ video</span> | <span class="media-waiting">Đang chờ cập nhật</span>; cần dựng từ session mapping đã xác nhận |
-| V11 | Video | Pipeline đầy đủ tới phân tích môi trường | J09 | <span class="status-badge status-todo">Chờ video</span> | <span class="media-waiting">Đang chờ cập nhật</span>; đề xuất 2–4 phút |
-| V12 | Video | Demo cuối dự án | J11 | <span class="status-badge status-todo">Chờ video</span> | <span class="media-waiting">Đang chờ cập nhật</span>; PLANNED |
 
 ## Template YouTube
 

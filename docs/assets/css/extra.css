@@ -804,6 +804,32 @@ body {
   font-weight: 800;
 }
 
+.media-card__video {
+  aspect-ratio: 16 / 9;
+  background: var(--fish-soft);
+  border: 1px solid var(--fish-line);
+  border-radius: 0.4rem;
+  flex: 0 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.media-card__video iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.media-card__video--placeholder {
+  align-items: center;
+  color: var(--fish-muted);
+  display: flex;
+  font-size: 0.68rem;
+  font-weight: 700;
+  justify-content: center;
+}
+
 .media-card h3 {
   font-size: 0.78rem;
   margin: 0.7rem 0 0.45rem;
@@ -826,6 +852,18 @@ body {
   gap: 0.35rem;
   padding: 0.45rem 0.65rem;
   text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .media-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .media-card-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .result-gallery {
@@ -922,10 +960,6 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .media-card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .evidence-map {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -952,8 +986,7 @@ body {
   .story-grid,
   .experiment-grid,
   .journal-grid,
-  .result-gallery,
-  .media-card-grid {
+  .result-gallery {
     grid-template-columns: minmax(0, 1fr);
   }
 

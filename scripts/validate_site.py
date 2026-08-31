@@ -20,6 +20,17 @@ SITE_ROOT = Path(__file__).resolve().parents[1]
 DOCS_ROOT = SITE_ROOT / "docs"
 JOURNAL_ROOT = DOCS_ROOT / "journal"
 EXPECTED_IDS = [f"J{number:02d}" for number in range(1, 14)]
+EXPECTED_MEDIA_IDS = [
+    "V01",
+    "V02",
+    "V03",
+    "V04",
+    "V05",
+    "V06",
+    "V07",
+    "V08",
+    "V10",
+]
 VALID_STATUSES = {"VERIFIED", "PARTIAL", "TO_VERIFY", "PLANNED"}
 CUTOFF_DATE = date(2026, 8, 29)
 LINK_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
@@ -201,6 +212,21 @@ def validate(skip_source_check: bool) -> int:
 
     for path in sorted(DOCS_ROOT.rglob("*.md")):
         errors.extend(local_link_errors(path, path.read_text(encoding="utf-8")))
+
+    media_path = DOCS_ROOT / "media.md"
+    if not media_path.is_file():
+        errors.append("missing docs/media.md")
+    else:
+        media_ids = re.findall(
+            r"^\|\s*(V\d{2})\s*\|",
+            media_path.read_text(encoding="utf-8"),
+            flags=re.MULTILINE,
+        )
+        if media_ids != EXPECTED_MEDIA_IDS:
+            errors.append(
+                f"media set mismatch: expected {EXPECTED_MEDIA_IDS}, "
+                f"got {media_ids}"
+            )
 
     index_path = DOCS_ROOT / "assets" / "data" / "journal_index.json"
     if not index_path.is_file():

@@ -3,7 +3,7 @@
   "source_check_path": "../fish",
   "source_repository": "https://github.com/khkt-tn/fish",
   "source_branch": "main",
-  "source_git_commit": "cca348f5ea8d4bcad6c9942bfd43dfe53d4dd785",
+  "source_git_commit": "f49b1f27afb3b3c1fbbbe502cfec32928e3ae62b",
   "source_files": [
     {
       "source": "research_diary/ABOUT_PROJECT.md",
@@ -20,8 +20,8 @@
     {
       "source": "research_diary/MEDIA_INDEX.md",
       "destination": "docs/media.md",
-      "source_sha256": "98ed3d089094d213f411c09a34aef61c4d1007360bd145efa4f81d58e79019cd",
-      "destination_sha256": "bb4179c4fd7cfaf18de97eb1d219858ac94c78f5116a81e9727210023fa4cfe9"
+      "source_sha256": "ecaa6eef67e8ff5e39fa5978974724ec757834b4c6fa9c7c9a785958d29e3dde",
+      "destination_sha256": "2559aa9e577da39ee32739184d4fecb2e80f9d0171ab1d82bc603f1adfcca103"
     },
     {
       "source": "research_diary/EVIDENCE_INDEX.md",
@@ -74,8 +74,8 @@
     {
       "source": "research_diary/entries/J07_raspberry_pi_coral.md",
       "destination": "docs/journal/J07_raspberry_pi_coral.md",
-      "source_sha256": "0e9b2cb797d57724951cd9450b1af49f531aab1dfe19861f868e85dcd93e98c2",
-      "destination_sha256": "f577d43acb5421973a2f2d18b1b05a464838b7335d2d4f9e8585fb7a38f7a74e"
+      "source_sha256": "f4310fc890f23e77f4659478ef630006aa510a8d942122dcf421b002b8d44d60",
+      "destination_sha256": "f4cdbf52925b4ef8c38a6451f783ca242417e2bad7191b49bfe1f4f608cf2d06"
     },
     {
       "source": "research_diary/entries/J08_sensor_behavior_sync.md",
