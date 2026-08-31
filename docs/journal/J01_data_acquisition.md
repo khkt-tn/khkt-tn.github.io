@@ -3,7 +3,7 @@ journal_id: J01
 experiment_id: EXP-01
 title: "Xây dựng hệ thống thu nhận và lưu trữ dữ liệu"
 date: "2026-07-30"
-status: Verified
+status: VERIFIED
 authors:
   - "Phạm Duy Quang Anh"
   - "Nguyễn Quốc Minh"
@@ -18,7 +18,7 @@ last_updated: "2026-08-29"
 
 # Xây dựng hệ thống thu nhận và lưu trữ dữ liệu
 
-<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J01</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-01</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">01/08/2026</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-partial">Đã xác minh · VERIFIED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">low</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
+<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J01</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-01</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-07-30</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-verified">Đã xác minh · VERIFIED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">low</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
 
 
 ## 1. Mục tiêu
@@ -63,16 +63,15 @@ Nền tảng thu dữ liệu có bằng chứng gián tiếp qua dữ liệu đ�
 - [`data source inventory log`](https://github.com/khkt-tn/fish/blob/main/logs/data/notebook01_summary.txt)
 - [Danh sách unresolved](https://github.com/khkt-tn/fish/blob/main/research_diary/evidence/unresolved.md)
 
+## 11. Hình ảnh minh họa
+![Raspberry Pi và camera thực tế](../assets/images/research/research_diary/assets/images/J01/system.jpg)
 
-## 11. Hình ảnh minh chứng
-
-### IMG-J01-01 ·Hệ thống nuôi cá và chụp ảnh
-
-![Raspberry Pi và camera sử dụng trong hệ thống thu nhận dữ liệu](../assets/images/J01/system.jpg)
-
-*Hình 11.1. Raspberry Pi và camera sử dụng trong quá trình thu nhận dữ liệu.*
+*Hình 11.1. Hệ thống Raspberry Pi và camera sử dụng để thu nhận dữ liệu.*
 
 ## 12. Đóng góp của thành viên
 
-Quang Anh - Quốc Minh.
+Quang Anh - Quốc Minh
 
+## 13. Công việc tiếp theo
+
+Học sinh bổ sung log/ảnh gốc và xác nhận ngày; không đưa credential rclone hoặc raw video vào Git.

@@ -47,7 +47,7 @@ Repository có đủ raw video local để tiếp tục pipeline cho cả TOP v�
 
 ## 7. Vấn đề phát sinh
 
-Ngày thu raw video Front chưa được xác minh. Tên file đơn giản như `3.mp4` hoặc `8.mp4` không đủ để kết luận tank, nền hay kịch bản nếu thiếu manifest nguồn.
+Không
 
 ## 8. Điều chỉnh và cải tiến
 
@@ -66,11 +66,7 @@ Việc thu dữ liệu hai góc nhìn được xác minh bằng raw working copy
 
 ## 11. Hình ảnh đề xuất
 
-<!-- TODO_MEDIA:
-source: data/raw/top/1.mp4
-timestamp: 00:00:10
-description: IMG-J02-01 frame TOP
--->
+![Quá trình thu thập dataset](../assets/images/research/research_diary/assets/images/J01/2.jpg)
 
 <!-- TODO_MEDIA:
 source: data/raw/front/3.mp4
@@ -84,17 +80,37 @@ timestamp: N/A
 description: IMG-J02-03 TOP và FRONT đặt cạnh nhau; IMG-J02-04 T1/T2 chỉ thêm sau khi xác minh
 -->
 
-## 12. Video minh họa
+## Video minh họa
 
-> 🎥 **V02 — Video raw camera TOP** — <span class="media-waiting">Đang chờ cập nhật</span>
->
-> 🎥 **V03 — Video raw camera FRONT** — <span class="media-waiting">Đang chờ cập nhật</span>
+### V02 — Video raw camera TOP
 
-Khuyến nghị chỉ dùng đoạn 30–90 giây và không commit video.
+<div class="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/pdNzzXow-tk"
+    title="V02 — Video raw camera TOP"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+### V03 — Video raw camera FRONT
+
+<div class="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/DzVF1SNC4fw"
+    title="V03 — Video raw camera FRONT"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+*Khuyến nghị sử dụng video minh họa ngắn, tập trung vào phần dữ liệu cần kiểm chứng; không lưu video dung lượng lớn trực tiếp trong Git.*
 
 ## 13. Đóng góp của thành viên
 
-`TO_VERIFY_WITH_STUDENTS`: cần xác nhận người lắp camera, vận hành từng phiên và kiểm tra dữ liệu.
+`Quang Anh - Quốc Minh.
 
 ## 14. Công việc tiếp theo
 

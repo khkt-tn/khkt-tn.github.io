@@ -1,5 +1,5 @@
 ---
-journal_id: J09
+journal_id: J08
 experiment_id: EXP-07
 title: "Đồng bộ đặc trưng hành vi với dữ liệu môi trường"
 date: "2026-08-29"
@@ -18,7 +18,7 @@ last_updated: "2026-08-29"
 
 # Đồng bộ đặc trưng hành vi với dữ liệu môi trường
 
-<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J09</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-07</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-08-29</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-verified">Đã xác minh · VERIFIED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">high</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
+<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J08</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-07</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-08-29</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-verified">Đã xác minh · VERIFIED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">high</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
 
 
 ## 1. Mục tiêu
@@ -71,7 +71,7 @@ Nhóm gộp bước sensor sync và environment analysis vào Notebook 16, ghi r
 <!-- TODO_MEDIA:
 source: data/raw/sensors/1.json and integrated CSV
 timestamp: N/A
-description: IMG-J09-01 sensor raw; IMG-J09-02 bảng merge; IMG-J09-03 time axis chỉ tạo khi có dữ liệu time-resolved thật
+description: IMG-J08-01 sensor raw; IMG-J08-02 bảng merge; IMG-J08-03 time axis chỉ tạo khi có dữ liệu time-resolved thật
 -->
 
 ## 12. Video minh họa

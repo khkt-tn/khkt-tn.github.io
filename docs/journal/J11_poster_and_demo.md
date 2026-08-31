@@ -1,5 +1,5 @@
 ---
-journal_id: J14
+journal_id: J11
 experiment_id: EXP-12
 title: "Xây dựng poster và video demo"
 date: "TO_VERIFY"
@@ -18,7 +18,7 @@ last_updated: "2026-08-29"
 
 # Xây dựng poster và video demo
 
-<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J14</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-12</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">TO_VERIFY</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-planned">Kế hoạch · PLANNED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">pending</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
+<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J11</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-12</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">TO_VERIFY</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-planned">Kế hoạch · PLANNED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">pending</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
 
 
 ## 1. Mục tiêu
@@ -88,4 +88,4 @@ description: Poster overview, setup photo, detection/tracking sample, behavior p
 
 ## 14. Công việc tiếp theo
 
-Sau khi poster/demo được review, dùng chúng để luyện phản biện J15; không tự upload hoặc publish trong phiên này.
+Sau khi poster/demo được review, dùng chúng để luyện phản biện J12; không tự upload hoặc publish trong phiên này.

@@ -21,7 +21,7 @@ title: Thí nghiệm
 
   <article class="experiment-card"><span>EXP-06</span><h2>Triển khai hệ thống nhúng</h2><p>Raspberry Pi, Coral và tối ưu thời gian thực.</p><a href="/journal/J07_raspberry_pi_coral/">Mở EXP-06 →</a></article>
 
-  <article class="experiment-card"><span>EXP-07</span><h2>Đồng bộ môi trường</h2><p>Ghép dữ liệu cảm biến và hành vi theo timestamp.</p><a href="/journal/J09_sensor_behavior_sync/">Mở EXP-07 →</a></article>
+  <article class="experiment-card"><span>EXP-07</span><h2>Đồng bộ môi trường</h2><p>Ghép dữ liệu cảm biến và hành vi theo timestamp.</p><a href="/journal/J08_sensor_behavior_sync/">Mở EXP-07 →</a></article>
 
-  <article class="experiment-card"><span>EXP-08</span><h2>Phân tích môi trường – hành vi</h2><p>Phân tích mối liên hệ trên dữ liệu đã đồng bộ.</p><a href="/journal/J10_environment_behavior_analysis/">Mở EXP-08 →</a></article>
+  <article class="experiment-card"><span>EXP-08</span><h2>Phân tích môi trường – hành vi</h2><p>Phân tích mối liên hệ trên dữ liệu đã đồng bộ.</p><a href="/journal/J09_environment_behavior_analysis/">Mở EXP-08 →</a></article>
 </div>

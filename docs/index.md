@@ -34,7 +34,7 @@ hide:
   <div class="section-heading">
     <p class="eyebrow">TIẾN ĐỘ CÓ THỂ KIỂM TRA</p>
     <h2 id="stats-heading">Nhật ký trong một lần đọc</h2>
-    <p>Số liệu dưới đây được sinh trực tiếp từ YAML front matter của J01–J16.</p>
+    <p>Số liệu dưới đây được sinh trực tiếp từ YAML front matter của các bài nhật ký nghiên cứu.</p>
   </div>
   <div class="stats-grid" aria-live="polite">
     <article class="stat-card">
@@ -120,8 +120,8 @@ hide:
     <a class="experiment-card" href="journal/J04_yolo_detection/"><span>EXP-04</span><strong>Phát hiện cá</strong></a>
     <a class="experiment-card" href="journal/J05_fish_tracking/"><span>EXP-05</span><strong>Tracking và hành vi</strong></a>
     <a class="experiment-card" href="journal/J07_raspberry_pi_coral/"><span>EXP-06</span><strong>Triển khai hệ thống nhúng</strong></a>
-    <a class="experiment-card" href="journal/J09_sensor_behavior_sync/"><span>EXP-07</span><strong>Đồng bộ môi trường</strong></a>
-    <a class="experiment-card" href="journal/J10_environment_behavior_analysis/"><span>EXP-08</span><strong>Phân tích môi trường – hành vi</strong></a>
+    <a class="experiment-card" href="journal/J08_sensor_behavior_sync/"><span>EXP-07</span><strong>Đồng bộ môi trường</strong></a>
+    <a class="experiment-card" href="journal/J09_environment_behavior_analysis/"><span>EXP-08</span><strong>Phân tích môi trường – hành vi</strong></a>
   </div>
 </section>
 

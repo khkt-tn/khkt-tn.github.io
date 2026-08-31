@@ -122,12 +122,17 @@ def build() -> int:
             "</article>"
         )
 
-    page = """---
+    range_label = (
+        f"{journals[0]['journal_id']} — {journals[-1]['journal_id']}"
+        if journals
+        else "NHẬT KÝ"
+    )
+    page = f"""---
 title: Nhật ký nghiên cứu
 ---
 
 <section class="page-intro">
-  <p class="eyebrow">J01 — J16</p>
+  <p class="eyebrow">{html.escape(range_label)}</p>
   <h1>Nhật ký nghiên cứu</h1>
   <p>Mỗi bài ghi lại câu hỏi, phương pháp, quan sát, vấn đề, điều chỉnh và bằng chứng. Trạng thái được đọc trực tiếp từ YAML front matter của Markdown nguồn.</p>
 </section>

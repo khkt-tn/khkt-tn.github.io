@@ -58,15 +58,12 @@ nav:
       - J05 · Fish tracking: journal/J05_fish_tracking.md
       - J06 · Behavior features: journal/J06_behavior_features.md
       - J07 · Raspberry Pi và Coral: journal/J07_raspberry_pi_coral.md
-      - J08 · Tối ưu thời gian thực: journal/J08_realtime_optimization.md
-      - J09 · Đồng bộ môi trường: journal/J09_sensor_behavior_sync.md
-      - J10 · Phân tích môi trường: journal/J10_environment_behavior_analysis.md
-      - J11 · Audit tái lập: journal/J11_reproducibility_audit.md
-      - J12 · Kiểm chứng thống kê: journal/J12_statistical_validation.md
-      - J13 · Báo cáo khoa học: journal/J13_scientific_report.md
-      - J14 · Poster và demo: journal/J14_poster_and_demo.md
-      - J15 · Chuẩn bị phản biện: journal/J15_defense_preparation.md
-      - J16 · Lưu trữ dự án: journal/J16_final_project_archive.md
+      - J08 · Đồng bộ môi trường: journal/J08_sensor_behavior_sync.md
+      - J09 · Phân tích môi trường: journal/J09_environment_behavior_analysis.md
+      - J10 · Báo cáo khoa học: journal/J10_scientific_report.md
+      - J11 · Poster và demo: journal/J11_poster_and_demo.md
+      - J12 · Chuẩn bị phản biện: journal/J12_defense_preparation.md
+      - J13 · Lưu trữ dự án: journal/J13_final_project_archive.md
 
   - Thí nghiệm: experiments.md
   - Timeline: timeline.md

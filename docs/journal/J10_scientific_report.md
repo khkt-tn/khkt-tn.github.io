@@ -1,5 +1,5 @@
 ---
-journal_id: J13
+journal_id: J10
 experiment_id: EXP-11
 title: "Hoàn thiện báo cáo khoa học"
 date: "2026-09-18"
@@ -18,7 +18,7 @@ last_updated: "2026-08-29"
 
 # Hoàn thiện báo cáo khoa học
 
-<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J13</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-11</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-09-18</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-planned">Kế hoạch · PLANNED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">pending</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
+<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J10</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-11</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-09-18</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-planned">Kế hoạch · PLANNED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">pending</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
 
 
 ## 1. Mục tiêu
@@ -31,7 +31,7 @@ Báo cáo phải tách detection, tracking, behavior, environment và deployment
 
 ## 3. Thiết bị, dữ liệu và phần mềm
 
-Nguồn viết gồm nhật ký J01–J12, notebook, `results/`, `logs/`, figure đã commit và tài liệu tham khảo được kiểm tra. Không đưa raw video hoặc model binary vào báo cáo Git.
+Nguồn viết gồm nhật ký J01–J09, notebook, `results/`, `logs/`, figure đã commit và tài liệu tham khảo được kiểm tra. Không đưa raw video hoặc model binary vào báo cáo Git.
 
 ## 4. Phương pháp thực hiện
 
@@ -54,7 +54,7 @@ Khoảng dự kiến 18/09–01/10/2026. Mỗi bảng/figure được gắn expe
 
 ## 7. Vấn đề phát sinh
 
-Các phần J01, J07, J08 còn `PARTIAL`; contribution chưa xác minh; deployment benchmark và một số metric MOT còn thiếu. Báo cáo không được che các khoảng trống này.
+Các phần J01, J07 còn `PARTIAL`; contribution chưa xác minh; deployment benchmark và một số metric MOT còn thiếu. Báo cáo không được che các khoảng trống này.
 
 ## 8. Điều chỉnh và cải tiến
 

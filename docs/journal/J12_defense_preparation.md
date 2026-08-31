@@ -1,5 +1,5 @@
 ---
-journal_id: J15
+journal_id: J12
 experiment_id: EXP-13
 title: "Chuẩn bị phản biện"
 date: "2026-10-13"
@@ -18,7 +18,7 @@ last_updated: "2026-08-29"
 
 # Chuẩn bị phản biện
 
-<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J15</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-13</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-10-13</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-planned">Kế hoạch · PLANNED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">pending</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
+<section class="journal-meta" aria-label="Thông tin bài nhật ký"><div class="journal-meta__item"><span class="journal-meta__label">Mã nhật ký</span><span class="journal-meta__value">J12</span></div><div class="journal-meta__item"><span class="journal-meta__label">Experiment</span><span class="journal-meta__value">EXP-13</span></div><div class="journal-meta__item"><span class="journal-meta__label">Ngày</span><span class="journal-meta__value">2026-10-13</span></div><div class="journal-meta__item"><span class="journal-meta__label">Trạng thái</span><span class="journal-meta__value"><span class="status-badge status-planned">Kế hoạch · PLANNED</span></span></div><div class="journal-meta__item"><span class="journal-meta__label">Evidence</span><span class="journal-meta__value">pending</span></div><div class="journal-meta__item"><span class="journal-meta__label">Cập nhật</span><span class="journal-meta__value">2026-08-29</span></div></section>
 
 
 ## 1. Mục tiêu
@@ -90,4 +90,4 @@ Có thể quay thử phần trình bày để tự review; không bắt buộc u
 
 ## 14. Công việc tiếp theo
 
-Chốt các trường TO_VERIFY và chuyển sang checklist lưu trữ cuối J16.
+Chốt các trường TO_VERIFY và chuyển sang checklist lưu trữ cuối J13.

@@ -65,24 +65,21 @@ Dataset Front v1 và TOP v2 được xác minh đủ để tái truy xuất sour
 - [`roboflow_versions.csv`](https://github.com/khkt-tn/fish/blob/main/logs/data/roboflow_versions.csv)
 - Commit [`b3b6d2fadcdd5e38f434cc2041eac51ba773943e`](https://github.com/khkt-tn/fish/commit/b3b6d2fadcdd5e38f434cc2041eac51ba773943e)
 
-## 11. Hình ảnh đề xuất
+## 11. Hình ảnh chứng minh
 
+![Dataset](../assets/images/research/research_diary/assets/images/J01/3.1.jpg)
+![Top](../assets/images/research/research_diary/assets/images/J01/3.2.jpg)
+![Front](../assets/images/research/research_diary/assets/images/J01/3.3.jpg)
 <!-- TODO_MEDIA:
 source: Roboflow project UI
 timestamp: N/A
 description: IMG-J03-01 màn hình annotation; IMG-J03-02 box đúng; IMG-J03-03 trường hợp chồng lấp; IMG-J03-04 split statistics
 -->
 
-## 12. Video minh họa
+## 12. Đóng góp của thành viên
 
-> 🎥 **V04 — Quá trình gán bounding box trên Roboflow**
->
-> YouTube: <span class="media-waiting">Đang chờ cập nhật</span>
-
-## 13. Đóng góp của thành viên
-
-`TO_VERIFY_WITH_STUDENTS`: không suy ra người gán nhãn hoặc người audit từ Git author.
-
-## 14. Công việc tiếp theo
+Quang Anh - top
+Quốc Minh - front
+## 13. Công việc tiếp theo
 
 Bổ sung evidence split theo video và hướng dẫn annotation cho các trường hợp cá chồng lấp, sát mép hoặc khó nhìn.

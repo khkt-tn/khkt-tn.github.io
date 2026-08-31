@@ -19,7 +19,7 @@ import yaml
 SITE_ROOT = Path(__file__).resolve().parents[1]
 DOCS_ROOT = SITE_ROOT / "docs"
 JOURNAL_ROOT = DOCS_ROOT / "journal"
-EXPECTED_IDS = [f"J{number:02d}" for number in range(1, 17)]
+EXPECTED_IDS = [f"J{number:02d}" for number in range(1, 14)]
 VALID_STATUSES = {"VERIFIED", "PARTIAL", "TO_VERIFY", "PLANNED"}
 CUTOFF_DATE = date(2026, 8, 29)
 LINK_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
